@@ -1,0 +1,60 @@
+/*
+    Reset
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*
+    General
+*/
+.container {
+ width: 80%;
+ margin: 0 auto;
+}
+/*
+    Header
+*/
+header {
+    padding: 10px;
+}
+
+header img,
+header h1{
+    vertical-align: middle;
+}
+
+h1 {
+    display: inline;
+}
+/*
+    Main
+*/
+main {
+    background-color: #F6F8F9;
+    padding: 20px 0;
+}
+.tasks-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.circle-icon {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+    text-align: center;
+}
+.circle-check {
+    border: 1px solid green;
+    color: green;
+}
+.cross-check {
+    border: 1px solid red;
+    color: red;
+}
